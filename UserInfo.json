@@ -1,0 +1,20 @@
+{
+  "JLR-1": {
+    "LearnerNumber": "JLR-1",
+    "ID": "Yiyi",
+    "FirstDay": "2020-06-04 00:00:00",
+    "MailAddr": "443936352@qq.com"
+  },
+  "JLR-2": {
+    "LearnerNumber": "JLR-2",
+    "ID": "JoWang",
+    "FirstDay": "2020-06-05 00:00:00",
+    "MailAddr": "jo.wang.220@hotmail.com"
+  },
+  "JLR-3": {
+    "LearnerNumber": "JLR-3",
+    "ID": "LucasGS",
+    "FirstDay": "2020-05-25 00:00:00",
+    "MailAddr": "lucasgongsun@163.com"
+  }
+}
