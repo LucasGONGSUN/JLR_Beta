@@ -392,7 +392,7 @@ def Inquiry_C():
         print(nums, end='  ')
         NumsCount += 1
         if NumsCount == 16:
-            print('\n')
+            print('\n', end='')
             NumsCount = 1
     print('\n')
 
