@@ -24,13 +24,13 @@ FileExcelName_user = 'Users.xlsx'
 DatabaseName = 'JLR_Beta'
 
 host_u = 'mongodb://localhost:27017'
-host_u = "mongodb+srv://lucassl3:lucas112358@alphajune-czcux.azure.mongodb.net/<dbname>" \
-         "?retryWrites=true&w=majority"
+#host_u = "mongodb+srv://lucassl3:lucas112358@alphajune-czcux.azure.mongodb.net/<dbname>" \
+#         "?retryWrites=true&w=majority"
 colname_u = 'JLR_User'
 
-#host_c = 'mongodb://localhost:27017'
-host_c = "mongodb+srv://lucassl3:lucas112358@alphajune-czcux.azure.mongodb.net/" \
-         "<dbname>?retryWrites=true&w=majority"
+host_c = 'mongodb://localhost:27017'
+#host_c = "mongodb+srv://lucassl3:lucas112358@alphajune-czcux.azure.mongodb.net/" \
+#         "<dbname>?retryWrites=true&w=majority"
 colname_c = 'JLR_Local'
 
 # --- Functions --- #
@@ -391,7 +391,7 @@ def Inquiry_C():
     for nums, dicts in ContentList.items():
         print(nums, end='  ')
         NumsCount += 1
-        if NumsCount == 16:
+        if NumsCount == 11:
             print('\n', end='')
             NumsCount = 1
     print('\n')
