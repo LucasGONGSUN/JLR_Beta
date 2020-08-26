@@ -780,6 +780,7 @@ def MongoDB2Json_C(HostAddr, CollectionName):
 # --- 4(1) Draw mails for each user --- #
 def MailDraw():
     # Show List of User Info
+    print('\n\n\n>>>>>> Mission Start - %s <<<<<<' % Today)
     print('\n=== Drawing mails for users as follows ===\n')
     IndexNo = 1
     for nums, details in UserList.items():
@@ -845,7 +846,7 @@ def MailSend():
 
         # Log out
         print('\n>>> All mails are sent! <<<')
-        print(datetime.today())
+        print(TodayDate)
         server.quit()
 
     else:
@@ -1014,7 +1015,7 @@ def MainMenu():
                 MailDraw()
                 MailSend()
 
-            schedule.every().day.at("00:03").do(AutoSend)
+            schedule.every().day.at("06:33").do(AutoSend)
 
             while True:
                 schedule.run_pending()
